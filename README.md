@@ -28,7 +28,7 @@ ProLingo is a SaaS-based platform designed to help users learn programming langu
    > This project was developed as a Hackathon project at Hack-5.0 NIT Hamirpur.  
    > Original repository:(https://github.com/Harshvardhan-18/Hack-5.0-ProLingo)
    ```bash
-   git clone https://github.com/Harshvardhan-18/E-Commit-Prolingo.git
+   git clone (https://github.com/Ashwin28Toppo/Hack-5.0-ProLingo.git)
    cd prolingo
    ```
 3. Install dependencies:
