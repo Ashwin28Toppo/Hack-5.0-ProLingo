@@ -25,15 +25,17 @@ ProLingo is a SaaS-based platform designed to help users learn programming langu
 
 ### Setup
 1. Clone the repository:
+   > This project was developed as a Hackathon project at Hack-5.0 NIT Hamirpur.  
+   > Original repository:(https://github.com/Harshvardhan-18/Hack-5.0-ProLingo)
    ```bash
    git clone https://github.com/Harshvardhan-18/E-Commit-Prolingo.git
    cd prolingo
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Set up environment variables:
+4. Set up environment variables:
    Create a `.env.local` file and add the following:
    ```env
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_next_clerk_key
@@ -43,11 +45,11 @@ ProLingo is a SaaS-based platform designed to help users learn programming langu
     DATABASE_URL=your_pg_url
     STRIPE_SECRET_KEY=your_stripe_secret_key
    ```
-4. Run database migrations:
+5. Run database migrations:
    ```bash
    npx drizzle-kit push
    ```
-5. Start the development server:
+6. Start the development server:
    ```bash
    npm run dev
    ```
